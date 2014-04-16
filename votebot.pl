@@ -3,7 +3,7 @@ use warnings;
 use strict;
 
 # Votebot: A simple polling bot for IRC channels
-# Copyright (C) 2014 Chris Wallace (notori0us) <wallace.586@osu.edu>
+# Copyright (C) 2014 Chris Wallace (notori0us) <chris@chriswallace.io>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -23,10 +23,6 @@ use base qw( Bot::BasicBot );
 
 # CONFIGURIGATION
 # --------------------------------------------------
-
-# path to thesaurus
-# 	expected to be word,synonym1,synonym2,...,synonymn,
-#my $path_to_thesaurus = "./thesaurus";
 
 # details
 my $nick = "osousc_votebot";
